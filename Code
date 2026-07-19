@@ -1,0 +1,110 @@
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre mi</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .card {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .card img {
+            display: block;
+        }
+    </style>
+</head>
+
+<body class="bg-red-950 text-white font-sans min-h-screen">
+
+    <div class="max-w-5xl mx-auto p-6">
+        
+        <header class="py-10 text-center">
+            <h1 class="text-6xl font-black text-red-200 tracking-tighter uppercase">Dana (Nana)</h1>
+            <p class="text-red-400 mt-4 text-xl">Bienvenido a conocerme</p>
+        </header>
+
+        <section class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            
+            <div class="card bg-red-900 p-3 rounded-2xl shadow-xl hover:bg-red-800 transition duration-300">
+                <img src="https://images.unsplash.com/photo-1510812431401-41d6bd2517f3" alt="Imagen 1" class="rounded-xl w-full h-60 object-cover">
+                <p class="mt-3 text-center font-bold">De donde soy</p>
+            </div>
+
+            <div class="card bg-red-900 p-3 rounded-2xl shadow-xl hover:bg-red-800 transition duration-300">
+                <img src="https://images.unsplash.com/photo-1539650116574-75c0c6d73c6e?auto=format&fit=crop&w=1200&q=80" alt="Mi país" class="rounded-xl w-full h-60 object-cover">
+                <p class="mt-3 text-center font-bold">Mi país</p>
+            </div>
+            
+            <div class="card bg-red-900 p-3 rounded-2xl shadow-xl hover:bg-red-800 transition duration-300">
+                <img src="https://images.unsplash.com/photo-1543852786-1cf6624b9987?auto=format&fit=crop&w=1200&q=80" alt="Mi gato" class="rounded-xl w-full h-60 object-cover">
+                <p class="mt-3 text-center font-bold">Mi gato</p>
+            </div>
+        </section>
+
+        <!-- ===== NUEVO: franja tricolor decorativa (bandera de Colombia) ===== -->
+        <div class="my-10 h-3 w-full max-w-md mx-auto rounded-full overflow-hidden flex shadow-lg">
+            <div class="w-[48%] bg-yellow-400"></div>
+            <div class="w-[26%] bg-blue-700"></div>
+            <div class="w-[26%] bg-red-600"></div>
+        </div>
+
+        <!-- ===== NUEVO: sección de caballos ===== -->
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-6 items-center mt-6">
+            <div class="card bg-red-900 p-3 rounded-2xl shadow-xl hover:bg-red-800 transition duration-300">
+                <img src="https://images.unsplash.com/photo-1553284965-83fd3e82fa5b?w=1200&q=80&auto=format" alt="Equitación" class="rounded-xl w-full h-72 object-cover">
+                <p class="mt-3 text-center font-bold">Equitación</p>
+            </div>
+            <div class="px-4">
+                <h2 class="text-3xl font-black text-red-200 uppercase mb-3">Mi pasión por la equitación</h2>
+                <p class="text-red-100/90 leading-relaxed">
+                    Montar a caballo es mi manera de desconectarme y sentirme libre.
+                    Es una mezcla de calma, control y confianza mutua que no encuentro en ningún otro lado.
+                </p>
+            </div>
+        </section>
+
+        <!-- ===== NUEVO: sección de videojuegos ===== -->
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-6 items-center mt-12">
+            <div class="px-4 order-2 md:order-1">
+                <h2 class="text-3xl font-black text-red-200 uppercase mb-3">Videojuegos</h2>
+                <p class="text-red-100/90 leading-relaxed mb-3">
+                    Amo los mundos abiertos y coleccionar figuras de acción de mis sagas favoritas:
+                </p>
+                <ul class="text-red-300 font-semibold space-y-1">
+                    <li>🎮 Assassin's Creed</li>
+                    <li>🎮 Red dead redemption</li>
+                    <li>🎮 Cyberpunk 2077</li>
+                </ul>
+            </div>
+            <div class="card bg-red-900 p-3 rounded-2xl shadow-xl hover:bg-red-800 transition duration-300 order-1 md:order-2">
+                <img src= 
+                <p class="mt-3 text-center font-bold">Mi setup gamer</p>
+            </div>
+        </section>
+
+        <!-- ===== NUEVO: sección con la foto real de tu gata ===== -->
+        <section class="mt-12 text-center">
+            <h2 class="text-3xl font-black text-red-200 uppercase mb-4">Nana, mi gata</h2>
+            <div class="bg-red-900 p-3 rounded-2xl shadow-xl hover:bg-red-800 transition duration-300 max-w-md mx-auto">
+                <img src="nana.jpg" alt="Orion, mi gatao persa" class="rounded-xl w-full h-80 object-cover object-top">
+            </div>
+            <p class="text-red-300 mt-3">Supervisa cada tarea y cada partida desde el borde del escritorio.</p>
+        </section>
+
+        <!-- ===== NUEVO: footer ===== -->
+        <footer class="mt-16 py-6 text-center border-t border-red-800">
+            <p class="text-red-400 text-sm">Hecho con ❤️ en Bogotá, Colombia</p>
+        </footer>
+
+    </div>
+
+</body>P
+</html>
+```
