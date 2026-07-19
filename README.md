@@ -32,12 +32,11 @@ This is my first personal website. It includes information about me, my interest
 ## How to Try the Project
 
 1. Click the link:
+https://mywebdana.netlify.app
 
-https://app.netlify.com/projects/danamyweb/overview
+3. Open it in any browser (Chrome, Edge, Firefox, etc.)
 
-2. Open it in any browser (Chrome, Edge, Firefox, etc.)
-
-3. You're all set!
+4. You're all set!
 
 ---
 
