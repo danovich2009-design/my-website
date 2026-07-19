@@ -1,7 +1,8 @@
 # My Website
 
 https://mywebdana.netlify.app
-<img width="900" height="1052" alt="image" src="https://github.com/user-attachments/assets/eac29dfd-3aca-41fc-a363-49db8ccfdb45" />
+
+<img width="700" height="1000" alt="image" src="https://github.com/user-attachments/assets/eac29dfd-3aca-41fc-a363-49db8ccfdb45" />
 
 
 
