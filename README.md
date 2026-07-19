@@ -6,7 +6,7 @@ https://mywebdana.netlify.app
 
 
 
-## Hello! 👋
+## Hello!
 
 Hi! I'm Dana, and this is my personal website created with HTML and Tailwind CSS.
 
@@ -32,17 +32,6 @@ This is my first personal website. It includes information about me, my interest
 
 ---
 
-## How to Try the Project
-
-1. Click the link:
-https://mywebdana.netlify.app
-
-3. Open it in any browser (Chrome, Edge, Firefox, etc.)
-
-4. You're all set!
-
----
-
 ## Languages ​​Used
 - **HTML5**
 - **Tailwind CSS** (via CDN)
@@ -58,4 +47,4 @@ https://mywebdana.netlify.app
 
 Thanks for visiting my project!
 
-Any feedback is welcome ✨
+Any feedback is welcome 
