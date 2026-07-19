@@ -1,6 +1,6 @@
 # My Website
 
-![Preview](https://i.imgur.com/SBi63Bz.jpeg)
+![Preview](https://mywebdana.netlify.app)
 
 ## Hello! 👋
 
