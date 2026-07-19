@@ -1,6 +1,7 @@
 # My Website
 
-![Preview](https://mywebdana.netlify.app)
+https://mywebdana.netlify.app
+
 
 ## Hello! 👋
 
