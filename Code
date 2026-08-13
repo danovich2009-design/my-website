@@ -1,110 +1,282 @@
-
-```html
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre mi</title>
-    
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        .card {
-            display: flex;
-            flex-direction: column;
-            height: 100%;
-            border: 1px solid rgba(255, 255, 255, 0.08);
-        }
-        .card img {
-            display: block;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dana - My Web</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
+<body>
 
-<body class="bg-red-950 text-white font-sans min-h-screen">
+  <nav aria-label="Navegación principal">
+    <a href="#Inicio">Start</a>
+    <a href="#sobreMi">About Me</a>
+    <a href="#Skills">Skills</a>
+    <a href="#Hobbies">Hobbies</a>
+    <a href="#Cursos">Courses</a>
+    <a href="#proyectos">Projects</a>
+    <a href="#Contacto">Contact</a>
+  </nav>
 
-    <div class="max-w-5xl mx-auto p-6">
-        
-        <header class="py-10 text-center">
-            <h1 class="text-6xl font-black text-red-200 tracking-tighter uppercase">Dana (Nana)</h1>
-            <p class="text-red-400 mt-4 text-xl">Bienvenido a conocerme</p>
-        </header>
+  <header id="Start">
+    <h1>My Web</h1>
+    <h2>-DANA-</h2>
+    <a href="#sobreMi" class="start-btn">Start</a>
+    <span>Click or scroll</span>
+  </header>
 
-        <section class="grid grid-cols-1 md:grid-cols-3 gap-6">
-            
-            <div class="card bg-red-900 p-3 rounded-2xl shadow-xl hover:bg-red-800 transition duration-300">
-                <img src="https://images.unsplash.com/photo-1510812431401-41d6bd2517f3" alt="Imagen 1" class="rounded-xl w-full h-60 object-cover">
-                <p class="mt-3 text-center font-bold">De donde soy</p>
-            </div>
-
-            <div class="card bg-red-900 p-3 rounded-2xl shadow-xl hover:bg-red-800 transition duration-300">
-                <img src="https://images.unsplash.com/photo-1539650116574-75c0c6d73c6e?auto=format&fit=crop&w=1200&q=80" alt="Mi país" class="rounded-xl w-full h-60 object-cover">
-                <p class="mt-3 text-center font-bold">Mi país</p>
-            </div>
-            
-            <div class="card bg-red-900 p-3 rounded-2xl shadow-xl hover:bg-red-800 transition duration-300">
-                <img src="https://images.unsplash.com/photo-1543852786-1cf6624b9987?auto=format&fit=crop&w=1200&q=80" alt="Mi gato" class="rounded-xl w-full h-60 object-cover">
-                <p class="mt-3 text-center font-bold">Mi gato</p>
-            </div>
-        </section>
-
-        <!-- ===== NUEVO: franja tricolor decorativa (bandera de Colombia) ===== -->
-        <div class="my-10 h-3 w-full max-w-md mx-auto rounded-full overflow-hidden flex shadow-lg">
-            <div class="w-[48%] bg-yellow-400"></div>
-            <div class="w-[26%] bg-blue-700"></div>
-            <div class="w-[26%] bg-red-600"></div>
-        </div>
-
-        <!-- ===== NUEVO: sección de caballos ===== -->
-        <section class="grid grid-cols-1 md:grid-cols-2 gap-6 items-center mt-6">
-            <div class="card bg-red-900 p-3 rounded-2xl shadow-xl hover:bg-red-800 transition duration-300">
-                <img src="https://images.unsplash.com/photo-1553284965-83fd3e82fa5b?w=1200&q=80&auto=format" alt="Equitación" class="rounded-xl w-full h-72 object-cover">
-                <p class="mt-3 text-center font-bold">Equitación</p>
-            </div>
-            <div class="px-4">
-                <h2 class="text-3xl font-black text-red-200 uppercase mb-3">Mi pasión por la equitación</h2>
-                <p class="text-red-100/90 leading-relaxed">
-                    Montar a caballo es mi manera de desconectarme y sentirme libre.
-                    Es una mezcla de calma, control y confianza mutua que no encuentro en ningún otro lado.
-                </p>
-            </div>
-        </section>
-
-        <!-- ===== NUEVO: sección de videojuegos ===== -->
-        <section class="grid grid-cols-1 md:grid-cols-2 gap-6 items-center mt-12">
-            <div class="px-4 order-2 md:order-1">
-                <h2 class="text-3xl font-black text-red-200 uppercase mb-3">Videojuegos</h2>
-                <p class="text-red-100/90 leading-relaxed mb-3">
-                    Amo los mundos abiertos y coleccionar figuras de acción de mis sagas favoritas:
-                </p>
-                <ul class="text-red-300 font-semibold space-y-1">
-                    <li>🎮 Assassin's Creed</li>
-                    <li>🎮 Red dead redemption</li>
-                    <li>🎮 Cyberpunk 2077</li>
-                </ul>
-            </div>
-            <div class="card bg-red-900 p-3 rounded-2xl shadow-xl hover:bg-red-800 transition duration-300 order-1 md:order-2">
-                <img src= 
-                <p class="mt-3 text-center font-bold">Mi setup gamer</p>
-            </div>
-        </section>
-
-        <!-- ===== NUEVO: sección con la foto real de tu gata ===== -->
-        <section class="mt-12 text-center">
-            <h2 class="text-3xl font-black text-red-200 uppercase mb-4">Nana, mi gata</h2>
-            <div class="bg-red-900 p-3 rounded-2xl shadow-xl hover:bg-red-800 transition duration-300 max-w-md mx-auto">
-                <img src="nana.jpg" alt="Orion, mi gatao persa" class="rounded-xl w-full h-80 object-cover object-top">
-            </div>
-            <p class="text-red-300 mt-3">Supervisa cada tarea y cada partida desde el borde del escritorio.</p>
-        </section>
-
-        <!-- ===== NUEVO: footer ===== -->
-        <footer class="mt-16 py-6 text-center border-t border-red-800">
-            <p class="text-red-400 text-sm">Hecho con ❤️ en Bogotá, Colombia</p>
-        </footer>
+  <div class="divider-corazones">
+    <div class="corazones-track">
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
+      <img src="./corazon.png" alt="corazón" />
 
     </div>
+  </div>
 
-</body>P
+  <main>
+
+    <section id="sobreMi" class="card">
+      <div class="profile-container">
+        <img src="./foto.jpg" alt="Foto de Dana" class="profile-img" />
+        <div class="bio-text">
+          <h2>Hi there!</h2>
+          <p>
+            Hi! My name is Dana; I’m from Bogotá and I’m 17 years old. I really enjoy learning new things and teaching myself; 
+            I like researching astronomy and space. My favorite animals are horses, and I used to practice horseback riding two years ago.
+          </p>
+          <p>
+            I enjoy programming because I like creating new things, 
+            letting my imagination run wild, and seeing them become part of real life.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="Skills" class="card">
+      <h2>Skills and Languages</h2>
+      <p>
+        These are the languages ​​I am currently using and learning, 
+        whether through YouTube videos or by practicing on my own.
+      </p>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <img src="./html.png" alt="HTML" />
+          <span>HTML</span>
+        </div>
+
+        <div class="skill-card">
+          <img src="./piton.png" alt="Python" />
+          <span>Python</span>
+        </div>
+
+        <div class="skill-card">
+          <img src="./microsoft_visual_studio_code_alt_macos_bigsur_icon_189954.png" alt="VS Code" />
+          <span>VS Code</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="Hobbies" class="card">
+      <h2>Hobbies</h2>
+      <p>
+        These are some of the activities I enjoy doing most in my free time:
+      </p>
+
+      <div class="hobbies-grid">
+        <div class="hobby-card">
+          <span class="hobby-icon">🎨</span>
+          <h3>Dibujo y Arte</h3>
+          <p>Create illustrations and experiment with new visual styles.</p>
+        </div>
+
+        <div class="hobby-card">
+          <span class="hobby-icon">🎧</span>
+          <h3>Music</h3>
+          <p>Listening to my favorite playlists and discovering retro songs.</p>
+        </div>
+
+        <div class="hobby-card">
+          <span class="hobby-icon">📚</span>
+          <h3>Lectura</h3>
+          <p>Lose myself in good stories and learn new things.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="Cursos" class="card">
+      <h2>Courses and Certifications</h2>
+      <p>
+      Training and certifications I have completed to continue learning:
+      </p>
+
+      <div class="cursos-grid">
+        <div class="curso-card">
+          <div class="curso-badge">📜 Certificado</div>
+          <h3>Desarrollo Web HTML & CSS</h3>
+          <span class="curso-plataforma">Platzi / Udemy</span>
+          <span class="curso-fecha">2025</span>
+        </div>
+
+        <div class="curso-card">
+          <div class="curso-badge">📜 Certificado</div>
+          <h3>Fundamentos de Python</h3>
+          <span class="curso-plataforma">Coursera</span>
+          <span class="curso-fecha">2025</span>
+        </div>
+
+        <div class="curso-card">
+          <div class="curso-badge">📜 Certificado</div>
+          <h3>Diseño de Interfaces & UI</h3>
+          <span class="curso-plataforma">Curso Online</span>
+          <span class="curso-fecha">2026</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyectos" class="card">
+      <h2>Proyects</h2>
+      <p>These are some of the projects I have worked on recently:</p>
+
+      <div class="proyectos-grid">
+        <div class="proyecto-card">
+          <div class="proyecto-img-placeholder">💻</div>
+          <h3>My Website</h3>
+          <p>Personal portfolio design using HTML5 and CSS3, styled with custom typography.</p>
+          <div class="proyecto-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Contacto" class="card">
+      <h2>Contac</h2>
+      <p>Would you like to get in touch with me? Send me a direct message or follow me on social media!</p>
+
+      <div class="contacto-container">
+        <form class="contacto-form" action="#" method="POST" onsubmit="event.preventDefault(); alert('Message sent!');">
+          <div class="input-group">
+            <label for="nombre">Name</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Your name" required />
+          </div>
+
+          <div class="input-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="tu@email.com" required />
+          </div>
+
+          <div class="input-group">
+            <label for="mensaje">Message</label>
+            <textarea id="mensaje" name="mensaje" rows="4" placeholder="Write your message here..." required></textarea>
+          </div>
+
+          <button type="submit" class="submit-btn">Enviar Mensaje ✨</button>
+        </form>
+
+        <div class="contacto-info">
+          <h3>Otras formas de contacto</h3>
+          <p>You can also find me on my usual channels:</p>
+
+          <div class="contacto-links">
+            <a href="mailto:tuemail@ejemplo.com" class="contacto-btn">✉️ tuemail@ejemplo.com</a>
+            <a href="https://github.com/danovich2009-design" target="_blank" class="contacto-btn">🐙 GitHub</a>
+          
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Hecho con ♥ - 2026</p>
+  </footer>
+
+
+    </a>
+  </div>
+</div>
+
+<iframe width="314" height="321" scrolling="no" src="https://gify.pet/pet/pet.html?name=Lasbur&dob=1785895082&gender=f&element=Fire&pet=cat.gif&map=hills.jpg&background=gify.jpg&tablecolor=white&textcolor=black" frameborder="0"></iframe>
+
+</body>
 </html>
-```
