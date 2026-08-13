@@ -34,16 +34,8 @@ This is my first personal website. It includes information about me, my interest
 
 ## Languages ​​Used
 - **HTML5**
-- **Tailwind CSS** (via CDN)
+- **Tailwind CSS** 
 
----
-
-## Next Steps
-- Improve the design
-- Add more sections (social media, contact info, etc.)
-- Optimize the code
-
----
 
 Thanks for visiting my project!
 
